@@ -31,7 +31,7 @@
     self.excelView = excelView;
     [self.view setBackgroundColor:[UIColor greenColor]];
     
- // 2011 淘宝真个拆成了三家公司 淘宝，一淘，聚划算 最后一淘失败，重回业务线  淘宝商城->天猫 支付宝                
+ // 2011 淘宝真个拆成了三家公司 淘宝，一淘，聚划算 最后一淘失败，重回业务线  淘宝商城->天猫 支付宝                      
     NSArray * titleArr = @[@"日期",@"姓名",@"电话次数",@"QQ次数",@"微信次数",@"短信次数",@"邮件次数",@"拜访次数"];
     NSMutableArray * dataArr = [NSMutableArray array];
     for (NSInteger i = 0; i < 30; i ++) {
